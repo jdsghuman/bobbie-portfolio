@@ -482,7 +482,7 @@ const Livewell = () => {
               Activity is successfully added to the app.{" "}
             </p>
             <p>
-              <span style={{ fontWeight: "bold" }}>Don't:</span>
+              <span style={{ fontWeight: "bold" }}>Don`&apos;t:</span>
             </p>
             <p>Stare directly at the camera.</p>
             <p>Use poor lighting.</p>
