@@ -4,4 +4,5 @@ export interface projectType {
   description: string;
   image: string;
   slug: string;
+  objectFit?: string;
 }

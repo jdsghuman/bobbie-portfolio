@@ -1,7 +1,7 @@
 import styles from "./ProjectSteps.module.scss";
 
 interface Props {
-  title: string;
+  title?: string;
   description?: string[];
 }
 

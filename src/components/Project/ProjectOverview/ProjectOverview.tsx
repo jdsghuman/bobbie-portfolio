@@ -5,12 +5,13 @@ interface Props {
   role: string[];
   duration: string[];
   tools: string[];
+  title?: string;
 }
 
-const ProjectOverview = ({ about, role, duration, tools }: Props) => {
+const ProjectOverview = ({ about, role, duration, tools, title }: Props) => {
   return (
     <div className={styles.container}>
-      <h3 className={styles.title}>Project overview</h3>
+      <h3 className={styles.title}>{title ?? "Project overview"}</h3>
       <div className={styles.about}>
         <h3 className={styles.about__title}>About</h3>
         <p className={styles.about__text}>{about}</p>

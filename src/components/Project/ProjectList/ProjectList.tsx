@@ -50,6 +50,7 @@ const ProjectList = () => {
               description={project.description}
               key={`${project.name}-${i}`}
               slug={project.slug}
+              objectFit={project.objectFit}
             />
           );
         })}

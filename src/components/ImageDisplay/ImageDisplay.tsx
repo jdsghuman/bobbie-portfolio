@@ -1,8 +1,10 @@
 import Image from "next/image";
 // @ts-ignore
 import ModalImage from "react-modal-image";
+import classNames from "classnames/bind";
 
 import styles from "./ImageDisplay.module.scss";
+const cx = classNames.bind(styles);
 
 interface ImageProps {
   src: string;
@@ -14,11 +16,18 @@ interface ImageProps {
 
 interface Props {
   images: ImageProps[];
+  position?: string;
+  direction?: string;
 }
 
-const ImageDisplay = ({ images }: Props) => {
+const ImageDisplay = ({ images, position, direction }: Props) => {
   return (
-    <div className={styles.container}>
+    <div
+      className={cx("container", {
+        "container--left": position === "left",
+        "container--column": direction === "column",
+      })}
+    >
       {images?.map((image, i) => {
         if (image.modal) {
           return (

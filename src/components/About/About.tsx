@@ -45,12 +45,14 @@ const About = () => {
           problems in the healthcare industry, many of which I strongly believe
           can be solved through technology and functional design. I want to
           solve these problems, using my compassionate nature in caring for
-          others, creative ability, and passion for research and design. My
-          current position is at a healthcare start-up company where I work as a
-          virtual nurse. I work alongside the PYM team. I am excited to expand
-          my research and design-thinking skills, and to create functional
-          products and services to make the world a better place, one happy user
-          at a time
+          others, creative ability, and passion for research and design.
+        </p>
+        <p className={styles.text}>
+          My current position is at a healthcare start-up company where I work
+          as a virtual nurse. I work alongside the PYM team. I am excited to
+          expand my research and design-thinking skills, and to create
+          functional products and services to make the world a better place, one
+          happy user at a time
         </p>
       </div>
     </section>

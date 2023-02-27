@@ -4,6 +4,12 @@
   justify-content: space-evenly;
   margin: 40px auto;
   flex-wrap: wrap;
+  &--left {
+    justify-content: flex-start;
+  }
+  &--column {
+    flex-direction: column;
+  }
   &__modal {
     margin: 0 10px;
     @media (max-width: 630px) {

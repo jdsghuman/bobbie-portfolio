@@ -386,7 +386,7 @@ const VocabULearn = () => {
         <TextComponent
           title="Test Report"
           text={[
-            "The interview participants’ comments and observations were made into a usability test report. Each of the observations were rated with a severity rating based on Jacob Nielsen’s scale, along with recommendations to solve the issues.",
+            "The view participants’ comments and observations were made into a usability test report. Each of the observations were rated with a severity rating based on Jacob Nielsen’s scale, along with recommendations to solve the issues.",
           ]}
         />
         <ImageDisplay
