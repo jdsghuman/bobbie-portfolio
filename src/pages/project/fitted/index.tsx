@@ -581,7 +581,6 @@ const Livewell = () => {
         />
         <ProjectSteps title="High fidelity responsive breakpoints for the homescreen. " />
         <ImageDisplay
-          position="left"
           images={[
             {
               src: "https://i.imgur.com/gIaa87F.png",
@@ -608,7 +607,6 @@ const Livewell = () => {
         />
         <ProjectSteps title="High fidelity responsive breakpoints for the program screen." />
         <ImageDisplay
-          position="left"
           images={[
             {
               src: "https://i.imgur.com/KPpBtaq.png",
@@ -635,7 +633,6 @@ const Livewell = () => {
         />
         <ProjectSteps title="The Outcome" />
         <ImageDisplay
-          position="left"
           images={[
             {
               src: "https://i.imgur.com/0jIl2re.png",
