@@ -17,6 +17,10 @@
     background: $background--light;
     padding-bottom: 60px;
   }
+
+  h1 {
+    color: $palette-brand-fitted;
+  }
 }
 
 .flex__container {
@@ -93,7 +97,7 @@
   font-size: 1.6rem;
   margin-left: 5px;
   span {
-    color: #029ca7;
+    color: $palette-brand-fitted;
     font-family: Inter;
   }
 }
