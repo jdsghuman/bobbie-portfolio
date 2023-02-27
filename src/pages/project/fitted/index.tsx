@@ -195,7 +195,10 @@ const Livewell = () => {
           ]}
         />
       </section>
-      <section className={cx("container", "container__nested")} id="design">
+      <section
+        className={cx("container", "container__nested", "container__grey")}
+        id="design"
+      >
         <ProjectOutline
           title="04/Design"
           description="The process from paper wireframes to high-fidelity prototype."
@@ -482,7 +485,7 @@ const Livewell = () => {
               Activity is successfully added to the app.{" "}
             </p>
             <p>
-              <span style={{ fontWeight: "bold" }}>Don`&apos;t:</span>
+              <span style={{ fontWeight: "bold" }}>Don&apos;t:</span>
             </p>
             <p>Stare directly at the camera.</p>
             <p>Use poor lighting.</p>
@@ -630,7 +633,7 @@ const Livewell = () => {
             },
           ]}
         />
-        <ProjectSteps title="the Outcome" />
+        <ProjectSteps title="The Outcome" />
         <ImageDisplay
           position="left"
           images={[
