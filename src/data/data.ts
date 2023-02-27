@@ -5,7 +5,7 @@ export const projects: projectType[] = [
     name: "FITTED",
     role: "UX/UI Design",
     description: "Responsive fitness app",
-    image: "https://i.imgur.com/NAZaWFg.jpg",
+    image: "https://i.imgur.com/BxmyFA3.jpg",
     slug: "/project/fitted",
   },
   {
