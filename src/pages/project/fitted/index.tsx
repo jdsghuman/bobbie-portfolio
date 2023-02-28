@@ -385,13 +385,12 @@ const Livewell = () => {
             },
           ]}
         />
+      </section>
+      <section className={cx("container", "container__nested")}>
         <ProjectSteps title="Visual Styleguide" />
-        <p className={styles.outline}>
-          <span>a.</span> Logo
-        </p>
+        <p className={styles.outline}>Logo</p>
         <div>
           <ImageDisplay
-            position="left"
             images={[
               {
                 src: "https://i.imgur.com/2ufOOKF.png",
@@ -403,11 +402,8 @@ const Livewell = () => {
             ]}
           />
         </div>
-        <p className={styles.outline}>
-          <span>b.</span> Typography
-        </p>
+        <p className={styles.outline}>Typography</p>
         <ImageDisplay
-          position="left"
           images={[
             {
               src: "https://i.imgur.com/g2sHnqn.png",
@@ -418,11 +414,8 @@ const Livewell = () => {
             },
           ]}
         />
-        <p className={styles.outline}>
-          <span>c.</span> Color Pallet
-        </p>
+        <p className={styles.outline}>Color Pallet</p>
         <ImageDisplay
-          position="left"
           images={[
             {
               src: "https://i.imgur.com/CreXPh3.png",
@@ -433,11 +426,8 @@ const Livewell = () => {
             },
           ]}
         />
-        <p className={styles.outline}>
-          <span>d.</span> UI Elements
-        </p>
+        <p className={styles.outline}>UI Elements</p>
         <ImageDisplay
-          position="left"
           images={[
             {
               src: "https://i.imgur.com/7BvzKeG.png",
@@ -448,11 +438,8 @@ const Livewell = () => {
             },
           ]}
         />
-        <p className={styles.outline}>
-          <span>e.</span> Iconography
-        </p>
+        <p className={styles.outline}>Iconography</p>
         <ImageDisplay
-          position="left"
           images={[
             {
               src: "https://i.imgur.com/FLtPsnc.png",
@@ -463,31 +450,33 @@ const Livewell = () => {
             },
           ]}
         />
-        <p className={styles.outline}>
-          <span>f.</span> Imagery
-        </p>
+        <p className={styles.outline}>Imagery</p>
         <div className={styles.analysis}>
           <div className={styles.analysis__item}>
-            <p>
+            <p style={{ lineHeight: "1.7" }}>
               Images for FITTED should be light in color and include humans
               working out. Avoid images that appear staged with subjects staring
               directly at the camera. There should be a distribution of both
               males (approx 40%) and females (approx 60%).
             </p>
-            <p>
+            <p className={styles.bold}>
               <span style={{ fontWeight: "bold" }}>Do:</span>
             </p>
-            <p>Use clear image light in color.</p>
+            <p className={styles.noMarginTop}>
+              Use clear image light in color.
+            </p>
             <p>Use good lighting.</p>
             <p>Use a combination of indoor and outdoor environments.</p>
-            <p>
-              <span style={{ fontWeight: "bold" }}>Success Criteria:</span>{" "}
-              Activity is successfully added to the app.{" "}
+            <p className={styles.bold}>
+              <span style={{ fontWeight: "bold" }}>Success Criteria: </span>
             </p>
-            <p>
+            <p className={styles.noMarginTop}>
+              Activity is successfully added to the app.
+            </p>
+            <p className={styles.bold}>
               <span style={{ fontWeight: "bold" }}>Don&apos;t:</span>
             </p>
-            <p>Stare directly at the camera.</p>
+            <p className={styles.noMarginTop}>Stare directly at the camera.</p>
             <p>Use poor lighting.</p>
             <p>Use branded images.</p>
             <p>Over saturate images.</p>
@@ -528,11 +517,9 @@ const Livewell = () => {
             />
           </div>
         </div>
-        <p className={styles.outline}>
-          <span>g.</span> Cards
-        </p>
+        <p className={styles.outline}>Cards</p>
         <ImageDisplay
-          position="left"
+          justify="center"
           images={[
             {
               src: "https://i.imgur.com/h7YBlLe.png",
@@ -550,11 +537,8 @@ const Livewell = () => {
             },
           ]}
         />
-        <p className={styles.outline}>
-          <span>h.</span> Break Points and Grids
-        </p>
+        <p className={styles.outline}>Break Points and Grids</p>
         <ImageDisplay
-          position="left"
           images={[
             {
               src: "https://i.imgur.com/FcxDatQ.png",
@@ -598,32 +582,6 @@ const Livewell = () => {
             },
             {
               src: "https://i.imgur.com/TOichfW.png",
-              alt: "High fidelity",
-              height: 537,
-              width: 475,
-              modal: true,
-            },
-          ]}
-        />
-        <ProjectSteps title="High fidelity responsive breakpoints for the program screen." />
-        <ImageDisplay
-          images={[
-            {
-              src: "https://i.imgur.com/KPpBtaq.png",
-              alt: "High fidelity",
-              height: 537,
-              width: 175,
-              modal: true,
-            },
-            {
-              src: "https://i.imgur.com/N3T0Agz.png",
-              alt: "High fidelity",
-              height: 537,
-              width: 375,
-              modal: true,
-            },
-            {
-              src: "https://i.imgur.com/X3sIGGB.png",
               alt: "High fidelity",
               height: 537,
               width: 475,
@@ -699,6 +657,32 @@ const Livewell = () => {
             },
             {
               src: "https://i.imgur.com/BlUHweb.png",
+              alt: "High fidelity",
+              height: 537,
+              width: 475,
+              modal: true,
+            },
+          ]}
+        />
+        <ProjectSteps title="High fidelity responsive breakpoints for the program screen." />
+        <ImageDisplay
+          images={[
+            {
+              src: "https://i.imgur.com/KPpBtaq.png",
+              alt: "High fidelity",
+              height: 537,
+              width: 175,
+              modal: true,
+            },
+            {
+              src: "https://i.imgur.com/N3T0Agz.png",
+              alt: "High fidelity",
+              height: 537,
+              width: 375,
+              modal: true,
+            },
+            {
+              src: "https://i.imgur.com/X3sIGGB.png",
               alt: "High fidelity",
               height: 537,
               width: 475,

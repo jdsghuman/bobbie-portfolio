@@ -18,14 +18,16 @@ interface Props {
   images: ImageProps[];
   position?: string;
   direction?: string;
+  justify?: string;
 }
 
-const ImageDisplay = ({ images, position, direction }: Props) => {
+const ImageDisplay = ({ images, position, direction, justify }: Props) => {
   return (
     <div
       className={cx("container", {
         "container--left": position === "left",
         "container--column": direction === "column",
+        "container--center": justify === "center",
       })}
     >
       {images?.map((image, i) => {
