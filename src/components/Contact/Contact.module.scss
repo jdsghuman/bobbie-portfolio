@@ -49,10 +49,13 @@
     background-color: #fff;
     border: 1px solid #d6d2d2;
     border-radius: 5px;
-
+    outline: none;
     &__message {
       padding: 8px;
       height: 200px;
+    }
+    &:focus {
+      border: 2px solid $secondary;
     }
   }
   .margin__bottom {
