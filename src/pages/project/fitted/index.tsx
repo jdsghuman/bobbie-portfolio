@@ -76,8 +76,8 @@ const Livewell = () => {
           title="UI Case Study: FITTED"
           about="A responsive, fitness web app designed to motivate people to find a workout routine that fits their level and schedule."
           role={["UX Designer"]}
-          duration={["6 months"]}
-          tools={["Pencil and paper", "Figma"]}
+          // duration={["1 month"]}
+          tools={["Pencil and paper", "Figma", "Invision"]}
         />
       </section>
       <section className={styles.container}>
@@ -87,7 +87,7 @@ const Livewell = () => {
         />
       </section>
       <section className={cx("container", "container__nested")} id="overview">
-        <ProjectOutline title="01/Project Overview" />
+        <ProjectOutline count="01/" title="Project Overview" />
         <ProjectSteps
           title="Objective"
           description={[
@@ -100,20 +100,27 @@ const Livewell = () => {
             "Our responsive web app will provide busy users with the tools to search activities and view routines, guides, daily challenges, and other information on any device. Provide a way for users to  keep a schedule by adding sessions to their personal calendar and track their progress.",
           ]}
         />
+        <ProjectSteps
+          title="My Role"
+          description={[
+            "I received a UX brief that included user personas, user stories, and features for Fitted. After the handoff, I worked on the UI of the application, created the logo, wireframes, mood board, style guide, and prototype.",
+          ]}
+        />
       </section>
       <section
         className={cx("container", "container__nested", "container__grey")}
         id="empathize"
       >
         <ProjectOutline
-          title="02/Empathize"
+          count="02/"
+          title="Empathize"
           description="To better understand our users’ needs, motivations, and pain points, a proto persona was created from the information provided in the project brief."
         />
         <ImageDisplay
           images={[
             {
-              src: "https://i.imgur.com/srWgOXb.png",
-              alt: "Photo persona",
+              src: "https://i.imgur.com/NfAlVj9.png",
+              alt: "Persona photo of REbecca",
               height: 350,
               width: 800,
               modal: true,
@@ -123,7 +130,8 @@ const Livewell = () => {
       </section>
       <section className={cx("container", "container__nested")} id="ideate">
         <ProjectOutline
-          title="03/Ideate"
+          count="03/"
+          title="Ideate"
           description="The user stories in the project brief were used to to help build user flows diagrams. These diagrams provided guidance when deciding on what screens to design for our app to help our users reach their goals."
         />
         <ProjectSteps
@@ -200,7 +208,8 @@ const Livewell = () => {
         id="design"
       >
         <ProjectOutline
-          title="04/Design"
+          count="04/"
+          title="Design"
           description="The process from paper wireframes to high-fidelity prototype."
         />
         <ProjectSteps title="Low fidelity screens" />
@@ -377,7 +386,7 @@ const Livewell = () => {
         <ImageDisplay
           images={[
             {
-              src: "https://i.imgur.com/p54YxtG.png",
+              src: "https://i.imgur.com/syrj0Af.png",
               alt: "Mood board",
               height: 632,
               width: 800,
@@ -388,156 +397,58 @@ const Livewell = () => {
       </section>
       <section className={cx("container", "container__nested")}>
         <ProjectSteps title="Visual Styleguide" />
-        <p className={styles.outline}>Logo</p>
-        <div>
+        <div style={{ marginTop: "30px" }}>
           <ImageDisplay
+            noMargin
             images={[
               {
-                src: "https://i.imgur.com/2ufOOKF.png",
-                alt: "FITTED logo",
-                height: 232,
+                src: "https://i.imgur.com/u36smpt.png",
+                alt: "FITTED logo and colors guideline",
+                height: 532,
                 width: 700,
                 modal: true,
               },
             ]}
           />
         </div>
-        <p className={styles.outline}>Typography</p>
         <ImageDisplay
+          noMargin
           images={[
             {
-              src: "https://i.imgur.com/g2sHnqn.png",
-              alt: "Headinngs",
+              src: "https://i.imgur.com/UWbZ4m4.png",
+              alt: "Typography",
               height: 732,
               width: 700,
               modal: true,
             },
           ]}
         />
-        <p className={styles.outline}>Color Pallet</p>
         <ImageDisplay
+          noMargin
           images={[
             {
-              src: "https://i.imgur.com/CreXPh3.png",
-              alt: "Colors",
-              height: 732,
-              width: 700,
-              modal: true,
-            },
-          ]}
-        />
-        <p className={styles.outline}>UI Elements</p>
-        <ImageDisplay
-          images={[
-            {
-              src: "https://i.imgur.com/7BvzKeG.png",
+              src: "https://i.imgur.com/5RDKptU.png",
               alt: "UI elements",
-              height: 732,
+              height: 1032,
               width: 700,
               modal: true,
             },
           ]}
         />
-        <p className={styles.outline}>Iconography</p>
-        <ImageDisplay
-          images={[
-            {
-              src: "https://i.imgur.com/FLtPsnc.png",
-              alt: "Iconography",
-              height: 732,
-              width: 700,
-              modal: true,
-            },
-          ]}
-        />
-        <p className={styles.outline}>Imagery</p>
-        <div className={styles.analysis}>
-          <div className={styles.analysis__item}>
-            <p style={{ lineHeight: "1.7" }}>
-              Images for FITTED should be light in color and include humans
-              working out. Avoid images that appear staged with subjects staring
-              directly at the camera. There should be a distribution of both
-              males (approx 40%) and females (approx 60%).
-            </p>
-            <p className={styles.bold}>
-              <span style={{ fontWeight: "bold" }}>Do:</span>
-            </p>
-            <p className={styles.noMarginTop}>
-              Use clear image light in color.
-            </p>
-            <p>Use good lighting.</p>
-            <p>Use a combination of indoor and outdoor environments.</p>
-            <p className={styles.bold}>
-              <span style={{ fontWeight: "bold" }}>Success Criteria: </span>
-            </p>
-            <p className={styles.noMarginTop}>
-              Activity is successfully added to the app.
-            </p>
-            <p className={styles.bold}>
-              <span style={{ fontWeight: "bold" }}>Don&apos;t:</span>
-            </p>
-            <p className={styles.noMarginTop}>Stare directly at the camera.</p>
-            <p>Use poor lighting.</p>
-            <p>Use branded images.</p>
-            <p>Over saturate images.</p>
-          </div>
-          <div>
-            <ImageDisplay
-              direction="column"
-              images={[
-                {
-                  src: "https://i.imgur.com/Ggn4z5B.png",
-                  alt: "Imagery",
-                  height: 487,
-                  width: 600,
-                  modal: true,
-                },
-                {
-                  src: "https://i.imgur.com/aPB6vGL.png",
-                  alt: "Imagery",
-                  height: 487,
-                  width: 600,
-                  modal: true,
-                },
-                {
-                  src: "https://i.imgur.com/dAvDjCa.png",
-                  alt: "Imagery",
-                  height: 487,
-                  width: 600,
-                  modal: true,
-                },
-                {
-                  src: "https://i.imgur.com/kldAueG.png",
-                  alt: "Imagery",
-                  height: 487,
-                  width: 600,
-                  modal: true,
-                },
-              ]}
-            />
-          </div>
-        </div>
-        <p className={styles.outline}>Cards</p>
         <ImageDisplay
           justify="center"
+          noMargin
           images={[
             {
-              src: "https://i.imgur.com/h7YBlLe.png",
+              src: "https://i.imgur.com/MXbKLeI.png",
               alt: "Cards",
-              height: 252,
-              width: 400,
-              modal: true,
-            },
-            {
-              src: "https://i.imgur.com/QFgDlT3.png",
-              alt: "Cards",
-              height: 252,
-              width: 300,
+              height: 552,
+              width: 700,
               modal: true,
             },
           ]}
         />
-        <p className={styles.outline}>Break Points and Grids</p>
+        <ProjectSteps title="Break Points and Grids" />
         <ImageDisplay
           images={[
             {
