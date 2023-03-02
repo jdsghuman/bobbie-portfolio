@@ -86,7 +86,8 @@ const VocabULearn = () => {
       </section>
       <section className={styles.container} id="empathize">
         <ProjectOutline
-          title="01/Empathize"
+          count="01/"
+          title="Empathize"
           description="During this phase, the goal is to better understand our target users. To
           understand their wants, needs and overall objectives. Below are the
           steps taken to accomplish this goal."
@@ -204,7 +205,8 @@ const VocabULearn = () => {
       </section>
       <section className={cx("container", "container__nested")} id="define">
         <ProjectOutline
-          title="02/Define"
+          count="02/"
+          title="Define"
           description="During this stage of the process, we look at the data gathered from the previous stage and define the problem. We 
           create a proto persona to represent our problem statement and hypothesis."
         />
@@ -255,7 +257,8 @@ const VocabULearn = () => {
         id="ideate"
       >
         <ProjectOutline
-          title="03/Ideate"
+          count="03/"
+          title="Ideate"
           description="In this stage of the process, we take our ideas a step further into conceptualization and come up with ideas and thoughts on how to organize and present the information to the user."
         />
         <ProjectSteps
@@ -289,7 +292,8 @@ const VocabULearn = () => {
       </section>
       <section className={cx("container", "container__nested")} id="prototype">
         <ProjectOutline
-          title="04/Prototype"
+          count="04/"
+          title="Prototype"
           description="In the prototype stage, we created some wireframes and prototypes around the users goals. "
         />
         <ProjectSteps
@@ -340,7 +344,8 @@ const VocabULearn = () => {
         id="test"
       >
         <ProjectOutline
-          title="05/Test"
+          count="05/"
+          title="Test"
           description="In this stage of the process we developed a test plan to test the prototype on 5 potential users. The purpose of the usability testing is to determine the effectiveness of the app and gather user feedback."
         />
         <ProjectSteps title="Usability Testing" />

@@ -75,7 +75,7 @@ const Livewell = () => {
         <ProjectOverview
           about="Live Well is a health and wellness responsive web app that provides users access to tools to improve their holistic well-being through lifestyle modifications, habit and health tracking (labs and vitals), and educational content. The app is designed for health conscious people that want to live a healthier lifestyle."
           role={["UX Designer"]}
-          duration={["6 months"]}
+          duration={["5 months"]}
           tools={[
             "Pencil and paper",
             "Figma",
@@ -100,7 +100,8 @@ const Livewell = () => {
       </section>
       <section className={cx("container", "container__nested")} id="understand">
         <ProjectOutline
-          title="01/Understand"
+          count="01/"
+          title="Understand"
           description="In this stage of the Design Thinking Process, my goal is to understand the problem and empathize with the user."
         />
         <ProjectSteps
@@ -156,7 +157,8 @@ const Livewell = () => {
         id="observe"
       >
         <ProjectOutline
-          title="02/Observe"
+          count="02/"
+          title="Observe"
           description="During the observe stage of the Design Thinking Process, I performed research on potential users through in-person and online interviews and survey."
         />
         <ProjectSteps
@@ -199,7 +201,8 @@ const Livewell = () => {
         id="pointofview"
       >
         <ProjectOutline
-          title="03/Point of View"
+          count="03/"
+          title="Point of View"
           description="The goal during this stage was to place myself into the shoes of the user. To do this I analyzed the information from the previous stage and sorted it into wants, goals, and needs. I then regrouped the categories and main insights. After doing this a general idea of our user population was identified and user personas were created."
         />
         <ProjectSteps
@@ -294,7 +297,8 @@ const Livewell = () => {
       </section>
       <section className={cx("container", "container__nested")} id="ideate">
         <ProjectOutline
-          title="04/Ideate"
+          count="04/"
+          title="Ideate"
           description="In the Ideate stage, with my user persona as a focus, I reviewed all the observations and collected data to come up with a full range of ideas and possible solutions to the identified problem. User flows and task analysis were created to show how users will use the app. Card sorting was used to help identify how to best organize the apps information in a way the is beneficial for the user."
         />
         <ProjectSteps title="User Journeys" />
@@ -452,7 +456,8 @@ const Livewell = () => {
         id="prototype"
       >
         <ProjectOutline
-          title="05/Prototype"
+          count="05/"
+          title="Prototype"
           description="Following the sitemap and user flows, paper wireframes and low-fidelity prototypes were created and iterated on. Starting with paper sketches and testing the design in this low fidelity format is important as it allows me to catch any errors or flaws in the design and make necessary corrections prior to reaching a high fidelity prototype."
         />
         <ProjectSteps title="Wireframes" />
@@ -497,7 +502,8 @@ const Livewell = () => {
       </section>
       <section className={cx("container", "container__nested")} id="test">
         <ProjectOutline
-          title="06/Test"
+          count="06/"
+          title="Test"
           description="In this stage, the interactive prototype was tested with potential users. A test script and test plan was created to facilitate the user testing. 
           The users were observed while interacting with the prototype. I made notes and collected feedback, which was later reviewed and used to 
           improve and iterate the prototype. After testing, the findings were organized through affinity mapping and the rainbow spreadsheet.  Improvements were made to key usability issues."

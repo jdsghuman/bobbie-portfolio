@@ -19,15 +19,23 @@ interface Props {
   position?: string;
   direction?: string;
   justify?: string;
+  noMargin?: boolean;
 }
 
-const ImageDisplay = ({ images, position, direction, justify }: Props) => {
+const ImageDisplay = ({
+  images,
+  position,
+  direction,
+  justify,
+  noMargin,
+}: Props) => {
   return (
     <div
       className={cx("container", {
         "container--left": position === "left",
         "container--column": direction === "column",
         "container--center": justify === "center",
+        "container--nomargin": noMargin,
       })}
     >
       {images?.map((image, i) => {
