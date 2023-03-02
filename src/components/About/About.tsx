@@ -52,7 +52,7 @@ const About = () => {
           as a virtual nurse. I work alongside the PYM team. I am excited to
           expand my research and design-thinking skills, and to create
           functional products and services to make the world a better place, one
-          happy user at a time
+          happy user at a time.
         </p>
       </div>
     </section>
