@@ -31,7 +31,7 @@ const Resume = () => {
       <ImageDisplay
         images={[
           {
-            src: "https://i.imgur.com/bprDiQ8.png",
+            src: "https://i.imgur.com/PkYMZbo.png",
             alt: "Resume of Bobbielee Ghuman",
             height: 1000,
             width: 780,
